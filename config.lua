@@ -73,13 +73,13 @@ Config.CashPile = {
 
 Config.KeycardDoors = {
     [1] = {
-        coords = vector3(960.59, 18.07, 59.84),
+        coords = vector3(960.59, 18.07, 59.84),   
         h = 142.39,
         animationx = 960.59 + 0.0,
         animationy = 18.07 + 0.5,
         animationz = 59.84,
         isOpen = false,
-        id = 38
+        id = 'StairsLowerDoor'                              -- Make this to what you named your door in nui_doorlock with matching coords
     },
     [2] = {
         coords = vector3(949.88, 26.27, 71.83),
@@ -88,7 +88,7 @@ Config.KeycardDoors = {
         animationy = 26.2 + 0.2,
         animationz = 71.83,
         isOpen = false,
-        id = 'Main1'
+        id = 'Main1'                        -- Make this to what you named your door in nui_doorlock with matching coords
     },
     [3] = {
         coords = vector3(961.61, 16.08, 71.84),
@@ -97,7 +97,7 @@ Config.KeycardDoors = {
         animationy = 16.08 + 0.8,
         animationz = 71.84,
         isOpen = false,
-        id = 'LoadingBayVault'
+        id = 'LoadingBayVault'              -- Make this to what you named your door in nui_doorlock with matching coords
     },
 }
 
