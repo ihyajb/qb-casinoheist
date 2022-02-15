@@ -9,7 +9,7 @@ This resource was more of a learning prossess for me. It was my first script I e
 * Must enable build `2189` or higher
  * [nui_doorlock](https://github.com/BerkieBb/nui_doorlock)
  * [DLC IPL Loader](https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391)
- * [mhacking](https://forum.cfx.re/t/release-simple-hacking-minigame/62095)
+ * [datacrack](https://github.com/utkuali/datacrack)
  * Placeholder Resource
 
 ## Todo
@@ -25,6 +25,10 @@ This resource was more of a learning prossess for me. It was my first script I e
 * Grabbing Gold Carts
 * Grabbing Cash Piles
 * Drill Saftey Depot Boxes
+
+## Instruction
+
+* Go to qb-casinoheist/config.lua and under " Config.KeycardDoors " change the " id = " to what ever you named your door in nui_doorlock. 
 
 ## Credit
 
